@@ -1,0 +1,8 @@
+{
+
+"modelId": "Llama 3.1 70B Instruct",
+"contentType": "application/json",
+"Accept": "application/json",
+"body": "{\"prompt\":\"[INST]You are a very intelligent bot with exceptional critical thinking.[/INST]You went to the market and bought 12 apples. I gave 2 apples to your friend and 2 apples to your teacher. To the 3 apples, I then went and bought 5 more apples and ate 1. How many apples did I remain with?\\n\\nLet's think step by step.\", \"max_gen_len\": 256}"
+
+}

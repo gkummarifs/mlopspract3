@@ -7,9 +7,15 @@ print("Imported successfully....")
 
 # Mentioning the prompt here
 
-prompt = """
+'''prompt = """
 
     You are a helpful assistant so please let me know what is machine learning in a smartest way?
+
+"""'''
+
+prompt = """
+
+    you are a cricket expert now just tell me when RCB will win the IPL?
 
 """
 # assiginng the below to a variable

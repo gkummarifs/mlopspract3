@@ -1,9 +1,22 @@
 
 from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain.vectorstores import FAISS
+#from langchain_community.embeddings import BedrockEmbeddings
+#from langchain.llms.bedrock import Bedrock ## Depricated
+
+'''
+Depercated imports - use below instead of these
+
 from langchain.vectorstores import FAISS
-from langchain_community.embeddings import BedrockEmbeddings
 from langchain.llms.bedrock import Bedrock
+from langchain.embeddings import BedrockEmbeddings
+
+'''
+
+from langchain_community.vectorstores import FAISS
+from langchain_community.llms import Bedrock
+from langchain_aws import BedrockEmbeddings
 
 import json
 import os

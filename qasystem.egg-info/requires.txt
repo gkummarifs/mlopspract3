@@ -1,0 +1,10 @@
+langchainhub
+bs4
+tiktoken
+boto3==1.34.37
+langchain_community
+chromadb
+awscli
+streamlit
+pypdf
+faiss-cpu
